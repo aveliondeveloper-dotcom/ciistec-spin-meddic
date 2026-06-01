@@ -1,0 +1,43 @@
+.bg-gradient-tech {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a, #06b6d4);
+}
+
+.bg-digital-grid {
+  background: radial-gradient(circle at center, #08111f, #020617);
+}
+
+.bg-warning {
+  background: linear-gradient(135deg, #2b1515, #111827);
+}
+
+.bg-analytics {
+  background: linear-gradient(135deg, #071018, #102437);
+}
+
+.bg-premium-dark {
+  background: linear-gradient(135deg, #050505, #121212);
+}
+
+.bg-tech-network {
+  background: linear-gradient(135deg, #071e3d, #0a2f57);
+}
+
+.bg-communications {
+  background: linear-gradient(135deg, #0a233f, #114f8e);
+}
+
+.bg-omni {
+  background: linear-gradient(135deg, #081b2c, #123c57);
+}
+
+.bg-green-tech {
+  background: linear-gradient(135deg, #052e16, #166534);
+}
+
+.bg-growth {
+  background: linear-gradient(135deg, #102437, #1d4ed8);
+}
+
+.bg-roadmap {
+  background: linear-gradient(135deg, #111827, #1f2937);
+}

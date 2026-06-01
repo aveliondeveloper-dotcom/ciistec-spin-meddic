@@ -1,0 +1,457 @@
+{
+"presentation": {
+"id": "ciistec_spin_sys",
+"title": "Transformando la Experiencia del Cliente mediante Comunicaciones Unificadas e IA",
+
+"slides": [
+
+  {
+    "id": 1,
+    "background": "gradient-tech",
+    "animation": "reveal",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/ciistec.svg",
+        "title": "Transformando la Experiencia del Cliente mediante Comunicaciones Unificadas e IA",
+        "subtitle": "Caso de negocio para optimizar ventas, atención y productividad"
+      },
+      {
+        "type": "kpis",
+        "items": [
+          { "value": "24/7", "label": "Disponibilidad" },
+          { "value": "+Canales", "label": "Atención" },
+          { "value": "IA", "label": "Automatización" }
+        ]
+      },
+      {
+        "type": "text",
+        "variant": "highlight",
+        "content": "Las organizaciones más competitivas ya no compiten únicamente por precio o producto. Compiten por velocidad, experiencia y capacidad de respuesta."
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "background": "digital-grid",
+    "animation": "stagger",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/business.svg",
+        "title": "Entendimiento del Negocio",
+        "subtitle": "Las expectativas de los clientes han cambiado"
+      },
+      {
+        "type": "cards",
+        "items": [
+          {
+            "icon": "assets/icons/customer.svg",
+            "title": "Clientes más exigentes"
+          },
+          {
+            "icon": "assets/icons/channels.svg",
+            "title": "Múltiples canales de contacto"
+          },
+          {
+            "icon": "assets/icons/speed.svg",
+            "title": "Mayor velocidad de respuesta"
+          },
+          {
+            "icon": "assets/icons/competition.svg",
+            "title": "Competencia digital"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "variant": "question",
+        "content": "La experiencia del cliente se ha convertido en uno de los principales factores de diferenciación empresarial."
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "background": "digital-grid",
+    "animation": "fade-up",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/business.svg",
+        "title": "Reflexionemos sobre la Operación Actual",
+        "subtitle": "Comprendamos cómo funciona hoy la atención y comunicación con sus clientes"
+      },
+      {
+        "type": "diagnostic",
+        "title": "Diagnóstico Inicial",
+        "questions": [
+          "¿Cómo interactúan actualmente con sus clientes?",
+          "¿Qué canales utilizan para ventas, atención y soporte?",
+          "¿Existe algún sistema que centralice las conversaciones?",
+          "¿Cómo supervisan la calidad de atención?",
+          "¿Quién tiene visibilidad completa de la operación?"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "background": "warning",
+    "animation": "cards",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/problem.svg",
+        "title": "Situación Actual",
+        "subtitle": "Desafíos frecuentes observados en organizaciones en crecimiento"
+      },
+      {
+        "type": "list",
+        "variant": "problems",
+        "items": [
+          "WhatsApp personales",
+          "Poca trazabilidad",
+          "Llamadas perdidas",
+          "Información dispersa",
+          "Baja productividad",
+          "Escalabilidad limitada"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "background": "warning",
+    "animation": "fade-up",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/problem.svg",
+        "title": "Diagnóstico Operativo",
+        "subtitle": "Identificando áreas de oportunidad"
+      },
+      {
+        "type": "diagnostic",
+        "title": "Reflexión Operativa",
+        "questions": [
+          "¿Cuál de estos desafíos consideran más crítico actualmente?",
+          "¿Qué sucede cuando un colaborador se ausenta o deja la empresa?",
+          "¿Cuántas conversaciones quedan sin seguimiento?",
+          "¿Cuánto tiempo dedican a tareas manuales?",
+          "¿Qué tan sencillo es localizar información histórica de un cliente?"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "background": "analytics",
+    "animation": "fade-up",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/chart-down.svg",
+        "title": "Impacto de Negocio",
+        "subtitle": "Consecuencias directas sobre crecimiento y rentabilidad"
+      },
+      {
+        "type": "list",
+        "variant": "impact",
+        "items": [
+          "Menos ventas",
+          "Clientes insatisfechos",
+          "Mayor carga operativa",
+          "Costos ocultos",
+          "Falta de visibilidad gerencial"
+        ]
+      },
+      {
+        "type": "kpis",
+        "items": [
+          {
+            "value": "-Ventas",
+            "label": "Oportunidades perdidas"
+          },
+          {
+            "value": "+Costos",
+            "label": "Operación"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 7,
+    "background": "analytics",
+    "animation": "fade-up",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/chart-down.svg",
+        "title": "Evaluación del Impacto",
+        "subtitle": "Dimensionemos el efecto en los resultados del negocio"
+      },
+      {
+        "type": "diagnostic",
+        "title": "Preguntas Estratégicas",
+        "questions": [
+          "¿Qué impacto tiene perder una oportunidad comercial?",
+          "¿Cómo afecta esto la experiencia del cliente?",
+          "¿Qué costo representa una atención inconsistente?",
+          "¿Qué consecuencias tendría mantener la operación actual durante los próximos 24 meses?",
+          "¿Qué tan visible es este impacto para la dirección?"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 8,
+    "background": "premium-dark",
+    "animation": "zoom",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/vision.svg",
+        "title": "Nuestra Visión"
+      },
+      {
+        "type": "comparison",
+        "leftTitle": "No hablamos de",
+        "rightTitle": "Hablamos de",
+        "left": [
+          "Telefonía",
+          "WhatsApp",
+          "Internet"
+        ],
+        "right": [
+          "Rentabilidad",
+          "Productividad",
+          "Continuidad operativa",
+          "Experiencia del cliente"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 9,
+    "background": "premium-dark",
+    "animation": "fade-up",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/vision.svg",
+        "title": "Prioridades Estratégicas",
+        "subtitle": "Definiendo los resultados deseados"
+      },
+      {
+        "type": "diagnostic",
+        "title": "Construyendo el Caso de Negocio",
+        "questions": [
+          "¿Cuál sería la principal prioridad para este año?",
+          "¿Mayor productividad o mayor crecimiento?",
+          "¿Mayor control operativo o mejor experiencia del cliente?",
+          "¿Qué resultado tendría mayor impacto para la organización?",
+          "¿Qué ocurriría si estos desafíos fueran resueltos?"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10,
+    "background": "tech-network",
+    "animation": "network",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/solution.svg",
+        "title": "Solución CIISTEC",
+        "subtitle": "Arquitectura integral para transformar la experiencia del cliente"
+      },
+      {
+        "type": "cards",
+        "items": [
+          { "icon": "assets/icons/phone.svg", "title": "Comunicaciones Unificadas" },
+          { "icon": "assets/icons/channels.svg", "title": "Omnicanalidad" },
+          { "icon": "assets/icons/whatsapp.svg", "title": "WhatsApp Business API" },
+          { "icon": "assets/icons/ai.svg", "title": "IA Conversacional" },
+          { "icon": "assets/icons/crm.svg", "title": "CRM Integrado" },
+          { "icon": "assets/icons/dashboard.svg", "title": "Dashboards" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 11,
+    "background": "communications",
+    "animation": "cards",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/phone.svg",
+        "title": "Comunicaciones Unificadas"
+      },
+      {
+        "type": "list",
+        "variant": "features",
+        "items": [
+          "Telefonía IP",
+          "Movilidad",
+          "Trabajo híbrido",
+          "Grabación",
+          "Escalabilidad"
+        ]
+      },
+      {
+        "type": "text",
+        "variant": "highlight",
+        "content": "Todos los colaboradores conectados desde cualquier lugar."
+      }
+    ]
+  },
+
+  {
+    "id": 12,
+    "background": "omni",
+    "animation": "orbit",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/channels.svg",
+        "title": "Omnicanalidad"
+      },
+      {
+        "type": "list",
+        "variant": "channels",
+        "items": [
+          "WhatsApp",
+          "Telefonía",
+          "SMS",
+          "Email",
+          "Redes Sociales"
+        ]
+      },
+      {
+        "type": "list",
+        "variant": "benefits",
+        "items": [
+          "Una sola vista",
+          "Un solo historial",
+          "Un solo equipo"
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 13,
+    "background": "green-tech",
+    "animation": "flow",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/whatsapp.svg",
+        "title": "WhatsApp Business API e Inteligencia Artificial"
+      },
+      {
+        "type": "list",
+        "variant": "features",
+        "items": [
+          "Atención escalable",
+          "Automatización",
+          "Seguimiento comercial",
+          "Campañas",
+          "Asistentes virtuales",
+          "Disponibilidad 24/7"
+        ]
+      },
+      {
+        "type": "text",
+        "variant": "question",
+        "content": "¿Cuántas oportunidades comerciales podrían recuperarse mediante seguimiento automatizado?"
+      }
+    ]
+  },
+
+  {
+    "id": 14,
+    "background": "growth",
+    "animation": "counter",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/profit.svg",
+        "title": "Beneficios Operativos y Financieros"
+      },
+      {
+        "type": "table",
+        "items": [
+          { "before": "Canales aislados", "after": "Omnicanalidad" },
+          { "before": "Sin métricas", "after": "Dashboard" },
+          { "before": "Atención manual", "after": "IA" },
+          { "before": "WhatsApp personal", "after": "Canal empresarial" },
+          { "before": "Información dispersa", "after": "CRM Integrado" }
+        ]
+      },
+      {
+        "type": "kpis",
+        "items": [
+          { "value": "+ROI", "label": "Rentabilidad" },
+          { "value": "+Productividad", "label": "Operación" },
+          { "value": "+Conversión", "label": "Ventas" }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 15,
+    "background": "roadmap",
+    "animation": "cinematic",
+    "blocks": [
+      {
+        "type": "header",
+        "icon": "assets/icons/roadmap.svg",
+        "title": "Plan de Implementación y Próximos Pasos"
+      },
+      {
+        "type": "timeline",
+        "items": [
+          { "phase": "Fase 1", "name": "Diagnóstico" },
+          { "phase": "Fase 2", "name": "Diseño" },
+          { "phase": "Fase 3", "name": "Implementación" },
+          { "phase": "Fase 4", "name": "Capacitación" },
+          { "phase": "Fase 5", "name": "Acompañamiento" }
+        ]
+      },
+      {
+        "type": "text",
+        "variant": "quote",
+        "content": "No buscamos vender tecnología."
+      },
+      {
+        "type": "text",
+        "variant": "body",
+        "content": "Buscamos ayudarles a construir una operación más eficiente, conectada, escalable y rentable."
+      },
+      {
+        "type": "text",
+        "variant": "cta",
+        "content": "¿Qué tan preparada está su organización para atender las expectativas del cliente moderno?"
+      }
+    ]
+  }
+
+]
+
+}
+}
