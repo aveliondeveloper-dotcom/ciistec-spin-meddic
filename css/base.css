@@ -63,3 +63,49 @@ h1 {
   position: relative;
   overflow: hidden;
 }
+/* ==========================================
+DESKTOP
+========================================== */
+
+html,
+body {
+  overflow: hidden;
+}
+
+/* ==========================================
+TABLET PORTRAIT + MOBILE
+========================================== */
+
+@media (max-width: 1024px), (orientation: portrait) {
+  html,
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: auto;
+  }
+
+  .presentation-container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide {
+    width: 100%;
+    min-height: auto;
+
+    height: auto;
+
+    padding: clamp(2rem, 6vw, 4rem) clamp(1.25rem, 5vw, 2rem);
+
+    align-content: start;
+
+    gap: 2rem;
+  }
+
+  .block {
+    width: 100%;
+  }
+}
