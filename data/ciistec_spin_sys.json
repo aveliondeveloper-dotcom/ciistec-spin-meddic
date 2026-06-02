@@ -24,11 +24,11 @@
           { "value": "IA", "label": "Automatización" }
         ]
       },
-      {
-        "type": "text",
-        "variant": "highlight",
-        "content": "Las organizaciones más competitivas ya no compiten únicamente por precio o producto. Compiten por velocidad, experiencia y capacidad de respuesta."
-      }
+     {
+  "type": "text",
+  "variant": "highlight",
+  "content": "Hoy, las organizaciones que lideran su mercado no necesariamente tienen el mejor producto; tienen la capacidad de responder más rápido, ofrecer mejores experiencias y convertir cada interacción en una oportunidad de crecimiento."
+}
     ]
   },
 
@@ -65,10 +65,10 @@
         ]
       },
       {
-        "type": "text",
-        "variant": "question",
-        "content": "La experiencia del cliente se ha convertido en uno de los principales factores de diferenciación empresarial."
-      }
+  "type": "text",
+  "variant": "question",
+  "content": "La forma en que una organización atiende, responde y acompaña a sus clientes se ha convertido en uno de los principales factores que influyen en la preferencia, lealtad y crecimiento del negocio."
+}
     ]
   },
 
@@ -84,16 +84,24 @@
         "subtitle": "Comprendamos cómo funciona hoy la atención y comunicación con sus clientes"
       },
       {
-        "type": "diagnostic",
-        "title": "Diagnóstico Inicial",
-        "questions": [
-          "¿Cómo interactúan actualmente con sus clientes?",
-          "¿Qué canales utilizan para ventas, atención y soporte?",
-          "¿Existe algún sistema que centralice las conversaciones?",
-          "¿Cómo supervisan la calidad de atención?",
-          "¿Quién tiene visibilidad completa de la operación?"
-        ]
-      }
+  "type": "diagnostic",
+  "title": "Comprendamos el contexto actual",
+  "storageKey": "diagnostico_inicial",
+  "questions": [
+    {
+      "id": "operacion_actual",
+      "question": "¿Cómo gestionan actualmente la comunicación y seguimiento con sus clientes a lo largo de todo el proceso comercial y de atención?"
+    },
+    {
+      "id": "canales_actuales",
+      "question": "A medida que aumentan los canales de contacto, ¿qué tan sencillo resulta mantener una experiencia consistente para el cliente?"
+    },
+    {
+      "id": "visibilidad",
+      "question": "¿Qué nivel de visibilidad tienen hoy sobre las conversaciones, tiempos de respuesta y desempeño de los equipos?"
+    }
+  ]
+}
     ]
   },
 
@@ -106,7 +114,7 @@
         "type": "header",
         "icon": "assets/icons/problem.svg",
         "title": "Situación Actual",
-        "subtitle": "Desafíos frecuentes observados en organizaciones en crecimiento"
+        "subtitle":"Situaciones comunes que suelen aparecer cuando una organización crece más rápido que sus procesos de comunicación y atención"
       },
       {
         "type": "list",
@@ -135,16 +143,14 @@
         "subtitle": "Identificando áreas de oportunidad"
       },
       {
-        "type": "diagnostic",
-        "title": "Reflexión Operativa",
-        "questions": [
-          "¿Cuál de estos desafíos consideran más crítico actualmente?",
-          "¿Qué sucede cuando un colaborador se ausenta o deja la empresa?",
-          "¿Cuántas conversaciones quedan sin seguimiento?",
-          "¿Cuánto tiempo dedican a tareas manuales?",
-          "¿Qué tan sencillo es localizar información histórica de un cliente?"
-        ]
-      }
+  "type": "diagnostic",
+  "title": "Identificando los principales retos",
+  "questions": [
+    "¿Cuál de estas situaciones genera hoy mayor fricción para sus equipos o clientes?",
+    "¿Qué ocurre cuando un colaborador clave se ausenta o deja la organización?",
+    "¿Dónde consideran que existen mayores oportunidades de mejora en productividad, seguimiento o control?"
+  ]
+}
     ]
   },
 
@@ -157,7 +163,7 @@
         "type": "header",
         "icon": "assets/icons/chart-down.svg",
         "title": "Impacto de Negocio",
-        "subtitle": "Consecuencias directas sobre crecimiento y rentabilidad"
+        "subtitle":"Pequeñas ineficiencias operativas suelen convertirse en costos, pérdida de oportunidades y experiencias inconsistentes"
       },
       {
         "type": "list",
@@ -198,16 +204,14 @@
         "subtitle": "Dimensionemos el efecto en los resultados del negocio"
       },
       {
-        "type": "diagnostic",
-        "title": "Preguntas Estratégicas",
-        "questions": [
-          "¿Qué impacto tiene perder una oportunidad comercial?",
-          "¿Cómo afecta esto la experiencia del cliente?",
-          "¿Qué costo representa una atención inconsistente?",
-          "¿Qué consecuencias tendría mantener la operación actual durante los próximos 24 meses?",
-          "¿Qué tan visible es este impacto para la dirección?"
-        ]
-      }
+  "type": "diagnostic",
+  "title": "Dimensionando el impacto",
+  "questions": [
+    "¿Cómo impactan estos desafíos en la experiencia de sus clientes y en los resultados del negocio?",
+    "Si la operación permaneciera igual durante los próximos dos años, ¿qué riesgos o limitaciones visualizan?",
+    "¿Qué tan visible es actualmente este impacto para la dirección o los responsables de la toma de decisiones?"
+  ]
+}
     ]
   },
 
@@ -226,16 +230,16 @@
         "leftTitle": "No hablamos de",
         "rightTitle": "Hablamos de",
         "left": [
-          "Telefonía",
-          "WhatsApp",
-          "Internet"
-        ],
+ "Herramientas aisladas",
+ "Procesos manuales",
+ "Comunicación fragmentada"
+],
         "right": [
-          "Rentabilidad",
-          "Productividad",
-          "Continuidad operativa",
-          "Experiencia del cliente"
-        ]
+ "Mayor productividad",
+ "Experiencias consistentes",
+ "Continuidad operativa",
+ "Decisiones basadas en información"
+]
       }
     ]
   },
@@ -252,16 +256,14 @@
         "subtitle": "Definiendo los resultados deseados"
       },
       {
-        "type": "diagnostic",
-        "title": "Construyendo el Caso de Negocio",
-        "questions": [
-          "¿Cuál sería la principal prioridad para este año?",
-          "¿Mayor productividad o mayor crecimiento?",
-          "¿Mayor control operativo o mejor experiencia del cliente?",
-          "¿Qué resultado tendría mayor impacto para la organización?",
-          "¿Qué ocurriría si estos desafíos fueran resueltos?"
-        ]
-      }
+  "type": "diagnostic",
+  "title": "Visualizando el escenario ideal",
+  "questions": [
+    "Si estos desafíos desaparecieran, ¿qué resultado tendría mayor impacto para la organización?",
+    "¿Qué prioridad tendría más valor hoy: crecimiento, eficiencia o experiencia del cliente?",
+    "¿Cómo cambiaría la operación si contaran con visibilidad y control sobre cada interacción con sus clientes?"
+  ]
+}
     ]
   },
 
@@ -273,9 +275,9 @@
       {
         "type": "header",
         "icon": "assets/icons/solution.svg",
-        "title": "Solución CIISTEC",
-        "subtitle": "Arquitectura integral para transformar la experiencia del cliente"
-      },
+"title":"Modelo de Transformación CIISTEC",
+"subtitle":"Una estrategia para conectar personas, procesos, información y experiencia del cliente"
+},
       {
         "type": "cards",
         "items": [
@@ -311,11 +313,11 @@
           "Escalabilidad"
         ]
       },
-      {
-        "type": "text",
-        "variant": "highlight",
-        "content": "Todos los colaboradores conectados desde cualquier lugar."
-      }
+     {
+  "type": "text",
+  "variant": "highlight",
+  "content": "La comunicación deja de depender de ubicaciones, dispositivos o personas específicas para convertirse en una capacidad estratégica disponible para toda la organización."
+}
     ]
   },
 
@@ -344,10 +346,10 @@
         "type": "list",
         "variant": "benefits",
         "items": [
-          "Una sola vista",
-          "Un solo historial",
-          "Un solo equipo"
-        ]
+ "Una sola experiencia para el cliente",
+ "Un historial centralizado",
+ "Mayor coordinación entre equipos"
+]
       }
     ]
   },
@@ -375,10 +377,10 @@
         ]
       },
       {
-        "type": "text",
-        "variant": "question",
-        "content": "¿Cuántas oportunidades comerciales podrían recuperarse mediante seguimiento automatizado?"
-      }
+  "type": "text",
+  "variant": "question",
+  "content": "¿Qué impacto tendría para el negocio poder responder, atender y dar seguimiento a cada oportunidad sin depender de horarios o disponibilidad individual?"
+}
     ]
   },
 
@@ -390,7 +392,7 @@
       {
         "type": "header",
         "icon": "assets/icons/profit.svg",
-        "title": "Beneficios Operativos y Financieros"
+"title":"Resultados Esperados para el Negocio"
       },
       {
         "type": "table",
@@ -405,10 +407,19 @@
       {
         "type": "kpis",
         "items": [
-          { "value": "+ROI", "label": "Rentabilidad" },
-          { "value": "+Productividad", "label": "Operación" },
-          { "value": "+Conversión", "label": "Ventas" }
-        ]
+ {
+   "value":"+Control",
+   "label":"Operación"
+ },
+ {
+   "value":"+Productividad",
+   "label":"Equipos"
+ },
+ {
+   "value":"+Conversión",
+   "label":"Ventas"
+ }
+]
       }
     ]
   },
@@ -434,20 +445,20 @@
         ]
       },
       {
-        "type": "text",
-        "variant": "quote",
-        "content": "No buscamos vender tecnología."
-      },
+  "type": "text",
+  "variant": "quote",
+  "content": "La tecnología es el habilitador. El verdadero objetivo es construir una organización más eficiente, conectada y preparada para crecer."
+},
       {
-        "type": "text",
-        "variant": "body",
-        "content": "Buscamos ayudarles a construir una operación más eficiente, conectada, escalable y rentable."
-      },
-      {
-        "type": "text",
-        "variant": "cta",
-        "content": "¿Qué tan preparada está su organización para atender las expectativas del cliente moderno?"
-      }
+  "type": "text",
+  "variant": "body",
+  "content": "Cada mejora en comunicación, visibilidad y automatización se traduce en mejores experiencias para los clientes y mejores resultados para el negocio."
+},
+     {
+  "type": "text",
+  "variant": "cta",
+  "content": "Si cada interacción con sus clientes fuera una fuente de información y oportunidad, ¿qué tan diferente podría ser el crecimiento de la organización durante los próximos años?"
+}
     ]
   }
 

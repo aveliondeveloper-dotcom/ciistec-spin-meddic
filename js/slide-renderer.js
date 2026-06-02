@@ -25,7 +25,7 @@ export function renderSlide(index) {
 
   const animation = VALID_ANIMATIONS.includes(slide.animation)
     ? slide.animation
-    : "fade-up";
+    : "zoom";
 
   container.classList.add(animation);
 
