@@ -17,7 +17,6 @@
   gap: 2rem;
 
   padding: clamp(2rem, 5vw, 5rem);
-
   position: relative;
 }
 
@@ -84,6 +83,7 @@ TABLET PORTRAIT + MOBILE
     width: 100%;
     height: auto;
 
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
   }
