@@ -6,56 +6,74 @@ export function renderTable(block) {
   const rows = block.items || [];
 
   section.innerHTML = `
+  
+  <div class="table-wrapper">
 
-<div class="table-wrapper">
+    <table class="executive-table">
 
-  <table
-    class="executive-table"
-  >
+      <thead>
+        <tr>
+          <th>Antes</th>
+          <th>Después</th>
+        </tr>
+      </thead>
 
-    <thead>
+      <tbody>
 
-      <tr>
+        ${rows
+          .map(
+            (row) => `
+              <tr>
+                <td>${row.before || ""}</td>
+                <td>${row.after || ""}</td>
+              </tr>
+            `,
+          )
+          .join("")}
 
-        <th>
-          Antes
-        </th>
+      </tbody>
 
-        <th>
-          Después
-        </th>
+    </table>
 
-      </tr>
+  </div>
 
-    </thead>
+  <div class="table-mobile">
 
-    <tbody>
+    ${rows
+      .map(
+        (row) => `
+          <article class="table-card">
 
-      ${rows
-        .map(
-          (row) => `
+            <div class="table-card-section before">
 
-          <tr>
+              <div class="table-card-label">
+                Antes
+              </div>
 
-            <td>
-              ${row.before}
-            </td>
+              <div class="table-card-value">
+                ${row.before || ""}
+              </div>
 
-            <td>
-              ${row.after}
-            </td>
+            </div>
 
-          </tr>
+            <div class="table-card-section after">
 
+              <div class="table-card-label">
+                Después
+              </div>
+
+              <div class="table-card-value">
+                ${row.after || ""}
+              </div>
+
+            </div>
+
+          </article>
         `,
-        )
-        .join("")}
+      )
+      .join("")}
 
-    </tbody>
-
-  </table>
-
-</div>
+  </div>
 
 `;
 
