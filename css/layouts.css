@@ -5,19 +5,25 @@
   position: relative;
   z-index: 10;
 }
-
 .slide {
   width: 100vw;
   height: 100vh;
 
   display: grid;
 
-  align-content: center;
+  align-content: start;
 
   gap: 2rem;
 
   padding: clamp(2rem, 5vw, 5rem);
+
   position: relative;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
 }
 
 .block {
