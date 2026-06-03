@@ -83,22 +83,55 @@
         "title": "Reflexionemos sobre la Operación Actual",
         "subtitle": "Comprendamos cómo funciona hoy la atención y comunicación con sus clientes"
       },
-      {
+     {
   "type": "diagnostic",
   "title": "Comprendamos el contexto actual",
   "storageKey": "diagnostico_inicial",
   "questions": [
     {
       "id": "operacion_actual",
-      "question": "¿Cómo gestionan actualmente la comunicación y seguimiento con sus clientes a lo largo de todo el proceso comercial y de atención?"
+      "question": "¿Cómo gestionan actualmente la comunicación y seguimiento con sus clientes a lo largo de todo el proceso comercial y de atención?",
+      "evaluation": {
+        "type": "multi-choice",
+        "options": [
+          "WhatsApp Personal",
+          "WhatsApp Business",
+          "Correo Electrónico",
+          "Telefonía Tradicional",
+          "CRM",
+          "ERP",
+          "Múltiples Herramientas",
+          "Proceso Manual"
+        ]
+      }
     },
     {
       "id": "canales_actuales",
-      "question": "A medida que aumentan los canales de contacto, ¿qué tan sencillo resulta mantener una experiencia consistente para el cliente?"
+      "question": "A medida que aumentan los canales de contacto, ¿qué tan sencillo resulta mantener una experiencia consistente para el cliente?",
+      "evaluation": {
+        "type": "single-choice",
+        "options": [
+          "Muy sencillo",
+          "Controlable",
+          "Difícil",
+          "Muy difícil",
+          "No existe control"
+        ]
+      }
     },
     {
       "id": "visibilidad",
-      "question": "¿Qué nivel de visibilidad tienen hoy sobre las conversaciones, tiempos de respuesta y desempeño de los equipos?"
+      "question": "¿Qué nivel de visibilidad tienen hoy sobre las conversaciones, tiempos de respuesta y desempeño de los equipos?",
+      "evaluation": {
+        "type": "single-choice",
+        "options": [
+          "Total",
+          "Alta",
+          "Parcial",
+          "Limitada",
+          "Nula"
+        ]
+      }
     }
   ]
 }
@@ -142,13 +175,56 @@
         "title": "Diagnóstico Operativo",
         "subtitle": "Identificando áreas de oportunidad"
       },
-      {
+    {
   "type": "diagnostic",
   "title": "Identificando los principales retos",
   "questions": [
-    "¿Cuál de estas situaciones genera hoy mayor fricción para sus equipos o clientes?",
-    "¿Qué ocurre cuando un colaborador clave se ausenta o deja la organización?",
-    "¿Dónde consideran que existen mayores oportunidades de mejora en productividad, seguimiento o control?"
+    {
+      "id": "friccion_principal",
+      "question": "¿Cuál de estas situaciones genera hoy mayor fricción para sus equipos o clientes?",
+      "evaluation": {
+        "type": "multi-choice",
+        "options": [
+          "WhatsApp Personal",
+          "Llamadas Perdidas",
+          "Información Dispersa",
+          "Seguimiento Comercial",
+          "Falta de Métricas",
+          "Demoras en Respuesta",
+          "Otro"
+        ]
+      }
+    },
+    {
+      "id": "dependencia_personas",
+      "question": "¿Qué ocurre cuando un colaborador clave se ausenta o deja la organización?",
+      "evaluation": {
+        "type": "single-choice",
+        "options": [
+          "No genera impacto",
+          "Impacto menor",
+          "Impacto moderado",
+          "Impacto alto",
+          "La operación se ve afectada significativamente"
+        ]
+      }
+    },
+    {
+      "id": "oportunidad_mejora",
+      "question": "¿Dónde consideran que existen mayores oportunidades de mejora en productividad, seguimiento o control?",
+      "evaluation": {
+        "type": "multi-choice",
+        "options": [
+          "Atención al Cliente",
+          "Ventas",
+          "Seguimiento Comercial",
+          "Reportes",
+          "Automatización",
+          "Comunicación Interna",
+          "Experiencia del Cliente"
+        ]
+      }
+    }
   ]
 }
     ]
@@ -203,13 +279,52 @@
         "title": "Evaluación del Impacto",
         "subtitle": "Dimensionemos el efecto en los resultados del negocio"
       },
-      {
+     {
   "type": "diagnostic",
   "title": "Dimensionando el impacto",
   "questions": [
-    "¿Cómo impactan estos desafíos en la experiencia de sus clientes y en los resultados del negocio?",
-    "Si la operación permaneciera igual durante los próximos dos años, ¿qué riesgos o limitaciones visualizan?",
-    "¿Qué tan visible es actualmente este impacto para la dirección o los responsables de la toma de decisiones?"
+    {
+      "id": "impacto_negocio",
+      "question": "¿Cómo impactan estos desafíos en la experiencia de sus clientes y en los resultados del negocio?",
+      "evaluation": {
+        "type": "single-choice",
+        "options": [
+          "Impacto mínimo",
+          "Impacto moderado",
+          "Impacto relevante",
+          "Impacto alto",
+          "Impacto crítico"
+        ]
+      }
+    },
+    {
+      "id": "riesgo_futuro",
+      "question": "Si la operación permaneciera igual durante los próximos dos años, ¿qué riesgos o limitaciones visualizan?",
+      "evaluation": {
+        "type": "multi-choice",
+        "options": [
+          "Pérdida de Clientes",
+          "Menor Competitividad",
+          "Incremento de Costos",
+          "Falta de Escalabilidad",
+          "Pérdida de Información",
+          "Baja Productividad"
+        ]
+      }
+    },
+    {
+      "id": "visibilidad_directiva",
+      "question": "¿Qué tan visible es actualmente este impacto para la dirección o los responsables de la toma de decisiones?",
+      "evaluation": {
+        "type": "single-choice",
+        "options": [
+          "Totalmente visible",
+          "Parcialmente visible",
+          "Poco visible",
+          "Prácticamente invisible"
+        ]
+      }
+    }
   ]
 }
     ]
@@ -259,9 +374,50 @@
   "type": "diagnostic",
   "title": "Visualizando el escenario ideal",
   "questions": [
-    "Si estos desafíos desaparecieran, ¿qué resultado tendría mayor impacto para la organización?",
-    "¿Qué prioridad tendría más valor hoy: crecimiento, eficiencia o experiencia del cliente?",
-    "¿Cómo cambiaría la operación si contaran con visibilidad y control sobre cada interacción con sus clientes?"
+    {
+      "id": "resultado_ideal",
+      "question": "Si estos desafíos desaparecieran, ¿qué resultado tendría mayor impacto para la organización?",
+      "evaluation": {
+        "type": "multi-choice",
+        "options": [
+          "Mayor Productividad",
+          "Mayor Conversión",
+          "Mayor Control",
+          "Mejor Experiencia del Cliente",
+          "Mayor Escalabilidad",
+          "Reducción de Costos"
+        ]
+      }
+    },
+    {
+      "id": "prioridad_estrategica",
+      "question": "¿Qué prioridad tendría más valor hoy: crecimiento, eficiencia o experiencia del cliente?",
+      "evaluation": {
+        "type": "single-choice",
+        "options": [
+          "Crecimiento",
+          "Eficiencia Operativa",
+          "Experiencia del Cliente",
+          "Transformación Digital"
+        ]
+      }
+    },
+    {
+      "id": "escenario_futuro",
+      "question": "¿Cómo cambiaría la operación si contaran con visibilidad y control sobre cada interacción con sus clientes?",
+      "evaluation": {
+        "type": "multi-choice",
+        "options": [
+          "Mayor Productividad",
+          "Mejor Seguimiento",
+          "Más Ventas",
+          "Mejor Servicio",
+          "Mayor Control Gerencial",
+          "Mejor Toma de Decisiones",
+          "Automatización"
+        ]
+      }
+    }
   ]
 }
     ]
